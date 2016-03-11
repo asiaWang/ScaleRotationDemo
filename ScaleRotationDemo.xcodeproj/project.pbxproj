@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		409ECF611C92664F0039E9F2 /* PointCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 409ECF601C92664F0039E9F2 /* PointCategory.m */; };
 		40CA3ADE1C91532F0060E599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CA3ADD1C91532F0060E599 /* main.m */; };
 		40CA3AE11C91532F0060E599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CA3AE01C91532F0060E599 /* AppDelegate.m */; };
 		40CA3AE41C91532F0060E599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CA3AE31C91532F0060E599 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		409ECF5F1C92664F0039E9F2 /* PointCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointCategory.h; sourceTree = "<group>"; };
+		409ECF601C92664F0039E9F2 /* PointCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointCategory.m; sourceTree = "<group>"; };
 		40CA3AD91C91532F0060E599 /* ScaleRotationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaleRotationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CA3ADD1C91532F0060E599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40CA3ADF1C91532F0060E599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				40CA3AE01C91532F0060E599 /* AppDelegate.m */,
 				40CA3AE21C91532F0060E599 /* ViewController.h */,
 				40CA3AE31C91532F0060E599 /* ViewController.m */,
+				409ECF5F1C92664F0039E9F2 /* PointCategory.h */,
+				409ECF601C92664F0039E9F2 /* PointCategory.m */,
 				40CA3AE51C91532F0060E599 /* Main.storyboard */,
 				40CA3AE81C91532F0060E599 /* Assets.xcassets */,
 				40CA3AEA1C91532F0060E599 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			files = (
 				40CA3AE41C91532F0060E599 /* ViewController.m in Sources */,
 				40CA3AE11C91532F0060E599 /* AppDelegate.m in Sources */,
+				409ECF611C92664F0039E9F2 /* PointCategory.m in Sources */,
 				40CA3ADE1C91532F0060E599 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +507,7 @@
 				40CA3B081C9153300060E599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40CA3B091C9153300060E599 /* Build configuration list for PBXNativeTarget "ScaleRotationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				40CA3B0B1C9153300060E599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40CA3B0C1C9153300060E599 /* Build configuration list for PBXNativeTarget "ScaleRotationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				40CA3B0E1C9153300060E599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
